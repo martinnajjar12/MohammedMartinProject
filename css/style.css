@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../pic.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.emptyDiv {
+  height: 25vh;
+}
+
+.container {
+  background-color: rgba(50, 100, 200, 0.6);
+}
+
+#formDiv {
+  background-color: rgba(60, 50, 200, 0.8);
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: left;
+}
+
+label {
+  font-size: 1.3em;
+  margin: 15px;
+}
+
+input {
+  margin: 15px;
+  padding: 5px;
+  width: 95%;
+}
+
+select {
+  margin: 15px;
+  padding: 5px;
+  width: 95%;
+}
+
+.radio {
+  max-width: 2%;
+  transform: scale(1.5);
+}
+
+textarea {
+  margin: 15px;
+  padding: 5px;
+  width: 95%;
+  height: 20vh;
+}
+
+button {
+  margin: 15px;
+  padding: 5px;
+  width: 95%;
+  background-color: rgb(66, 235, 66);
+  border-radius: 5px;
+  border: none;
+  height: 45px;
+  color: white;
+  font-size: 1.3em;
+}
+
+button:hover {
+  background-color: rgb(133, 236, 133);
+  box-shadow: 3px #aaaaaa;
+  cursor: pointer;
+}
+
+#title {
+  padding: 40px 40px 10px 40px;
+}
+
+#description {
+  padding: 0px 40px 40px 40px;
+}
