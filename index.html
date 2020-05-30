@@ -7,21 +7,97 @@
   </head>
 
   <body>
-    <h1>Hello World, we are software developers!</h1>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form">
+      <label id="name-label">Name</label> <br />
+      <input type="text" id="name" placeholder="Enter you name" />
+      <br />
+      <label id="email-label">Email</label> <br />
+      <input type="email" id="email" placeholder="Enter your email" />
+      <br />
+      <label id="number-label">Age <span>(Optional)</span></label> <br />
+      <input type="number" id="number" min="0" max="100" placeholder="Age" />
+      <br />
+      <label>Which option best describes your current role?</label>
+      <br />
+      <select id="dropdown">
+        <option value="" disabled selected>Select current role</option>
+        <option>Student</option>
+        <option>Full time Job</option>
+        <option>Full time learner</option>
+        <option>Prefered not to say</option>
+        <option>Other</option>
+      </select>
+      <br />
+      <label>Would you recommend freeCodeCamp to a friend?</label>
+      <br />
+      <label
+        ><input type="radio" name="recommendation" checked />Definitely</label
+      >
+      <br />
+      <label><input type="radio" name="recommendation" />Maybe</label>
+      <br />
+      <label><input type="radio" name="recommendation" />Not Sure</label>
+      <br />
+
+      <label>What is your favorite feature of freeCodeCamp?</label>
+      <select id="dropdown">
+        <option value="" disabled selected>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+      </select>
+
+      <label
+        >What would you like to see improved?
+        <span>(Check all that apply)</span></label
+      >
+      <label
+        ><input type="checkbox" value="Front-end Projects" checked />Front-end
+        Projects</label
+      >
+      <br />
+      <label
+        ><input type="checkbox" value="Back-end Projects" />Back-end
+        Projects</label
+      >
+      <br />
+      <label
+        ><input type="checkbox" value="Data Visualization" />Data
+        Visualization</label
+      >
+      <br />
+      <label><input type="checkbox" value="Challenges" />Challenges</label>
+      <br />
+      <label
+        ><input type="checkbox" value="Open Source Community" />Open Source
+        Community</label
+      >
+      <br />
+      <label
+        ><input type="checkbox" value="Gitter help rooms" />Gitter help
+        rooms</label
+      >
+      <br />
+      <label><input type="checkbox" value="Videos" />Videos</label>
+      <br />
+      <label><input type="checkbox" value="City Meetups" />City Meetups</label>
+      <br />
+      <label><input type="checkbox" value="Wiki" />Wiki</label>
+      <br />
+      <label><input type="checkbox" value="Forum" />Forum</label>
+      <br />
+      <label
+        ><input type="checkbox" value="Additional Courses" />Additional
+        Courses</label
+      >
+      <br />
+    </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script src="js/index.js"></script>
   </body>
 </html>
